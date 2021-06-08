@@ -1,0 +1,27 @@
+{
+  "name": "smj-service",
+  "version": "1.0.0",
+  "description": "SSO Web Service",
+  "main": "index.js",
+  "scripts": {
+    "test": "standard && nyc --reporter=html --reporter=text mocha",
+    "coverage": "nyc report --reporter=text-lcov | coveralls"
+  },
+  "keywords": [
+    "sso-web-service"
+  ],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "eta": "^1.12.1",
+    "express": "^4.17.1",
+    "express-session": "^1.17.2"
+  },
+  "devDependencies": {
+    "coveralls": "^3.1.0",
+    "mocha": "^9.0.0",
+    "mocha-lcov-reporter": "^1.3.0",
+    "nyc": "^15.1.0",
+    "standard": "^16.0.3"
+  }
+}
