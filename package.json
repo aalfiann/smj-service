@@ -4,6 +4,7 @@
   "description": "SSO Web Service",
   "main": "index.js",
   "scripts": {
+    "start": "node index.js",
     "test": "standard && nyc --reporter=html --reporter=text mocha",
     "coverage": "nyc report --reporter=text-lcov | coveralls"
   },
