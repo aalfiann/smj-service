@@ -8,7 +8,11 @@ const config = require('../config')
 const { User } = require('../models/user')
 
 router.get('/', (req, res) => {
-  res.render('index', {})
+  if (req.session.token) {
+    res.redirect('/home')
+  } else {
+    res.render('index', {})
+  }
 })
 
 router.get('/home', (req, res) => {

@@ -4,5 +4,6 @@
     </head>
     <body>
         <p>Welcome to homepage</p>
+        <button type="button" onclick="location.href='/logout'">Logout</button>
     </body>
 </html>
