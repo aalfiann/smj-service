@@ -6,8 +6,17 @@ const config = {
     maxAge: 60000,
     secret: 'secret for session'
   },
+  database: {
+    name: 'service_db',
+    user: 'root',
+    pass: '',
+    host: 'localhost'
+  },
   sso_url_login: 'http://localhost:4000/login',
-  sso_url_token: 'http://localhost:4000/token'
+  sso_url_token: 'http://localhost:4000/token',
+  sso_url_profile: 'http://localhost:4000/profile',
+  sso_client_id: '60mwt1txtlnvadtjy5pkwtfwos78im67',
+  sso_client_secret: 'kxiykbx9b4ibjd1ofhbg6qg3u4hshui22e8zrp0bqdw'
 }
 
 module.exports = config
