@@ -48,7 +48,7 @@ Note: all views only require basic HTML , no styling needed.
 - Service calls SSO with the code to retrieve actual access token + expiry date.
 - Service should now show user the protected home page
 
-### 6. Existing user login with active session in Service
+### 6. Existing user login with active session in Service [DONE]
 - User clicks “Login with SSO”
 - Service found an active session in DB
 - Service should now show user the protected home page

@@ -3,6 +3,6 @@
         <title>Login SSO</title>
     </head>
     <body>
-        <button type="button">Login with SSO</button>
+        <button type="button" onclick="location.href='/login'">Login with SSO</button>
     </body>
 </html>
