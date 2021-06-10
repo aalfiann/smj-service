@@ -4,7 +4,7 @@
 const assert = require('assert')
 const helper = require('../lib/helper')
 
-describe('function test', function () {
+describe('helper function test', function () {
   it('is empty string', function () {
     assert.strictEqual(helper.isEmptyString(undefined), true)
     assert.strictEqual(helper.isEmptyString(null), true)
