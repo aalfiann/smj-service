@@ -22,7 +22,7 @@
 const config = {
   port: process.env.PORT || 3000, // Port Server (default is 3000)
   session: {
-    maxAge: 60000,
+    maxAge: 60000,  // 1minute, will automatically update following expires time from SSO access_token
     secret: 'secret for session'
   },
   database: {
