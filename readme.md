@@ -54,6 +54,13 @@ Note:
 Before running the application make sure you already run `npm run seed` for the first time only.
 1. To start the application, just run `npm start` then open your browser to `http://localhost:3000`.
 
+### 5. Integration with SSO Server
+- **Callback Url**  
+  http://localhost:3000/cb
+
+- **Register**  
+  Go to **SSO Server** at [http://localhost:4000/register](http://localhost:4000/register), fill the form and submit, when you have the client_id and client_secret, you have to edit the `config.js` then restart this server by run `npm start`.
+
 
 ### Unit Test
 ```
