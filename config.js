@@ -10,7 +10,9 @@ const config = {
     name: 'service_db',
     user: 'root',
     pass: '',
-    host: 'localhost'
+    host: 'localhost',
+    port: 3306,
+    logging: true
   },
   sso_url_login: 'http://localhost:4000/login',
   sso_url_token: 'http://localhost:4000/token',
